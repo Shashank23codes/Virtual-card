@@ -99,7 +99,7 @@ const ContactFooter = () => {
                             </a>
                             <div className="ml-auto text-right">
                                 <p className="text-base font-bold text-slate-300">© 2026 Ramesh Sahu Financial.</p>
-                                <p className="text-sm text-slate-500 mt-1">Powered by Zaidi Corporation</p>
+                                <p className="text-sm text-slate-500 mt-1">Powered by Code Clover Studio</p>
                             </div>
                         </div>
 
