@@ -95,7 +95,7 @@ const ContactFooter = () => {
                                 <Youtube size={20} />
                             </a>
                             <a href="#" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 hover:bg-white/10 text-slate-300 hover:text-slate-100 rounded-xl transition-all border border-transparent hover:border-slate-400/30 flex items-center justify-center w-[46px] h-[46px]" title="X (Twitter)">
-                                <img src="/x-logo.svg" alt="X" className="w-[20px] h-[20px] opacity-70 hover:opacity-100 transition-opacity invert" />
+                                <img src={`${import.meta.env.BASE_URL}x-logo.svg`} alt="X" className="w-[20px] h-[20px] opacity-70 hover:opacity-100 transition-opacity invert" />
                             </a>
                             <div className="ml-auto text-right">
                                 <p className="text-base font-bold text-slate-300">© 2026 Ramesh Sahu Financial.</p>

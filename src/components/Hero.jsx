@@ -61,7 +61,7 @@ END:VCARD`;
 
             <div className="relative w-48 h-48 md:w-56 md:h-56 mb-8 shrink-0">
               <img
-                src="/Profilepic.JPG"
+                src={`${import.meta.env.BASE_URL}Profilepic.JPG`}
                 alt="Ramesh Sahu"
                 className="relative w-full h-full object-cover object-top rounded-full border-[4px] border-white/80 shadow-[0_0_30px_rgba(255,255,255,0.2)] transition-transform duration-700 group-hover:scale-[1.03]"
               />
@@ -107,7 +107,7 @@ END:VCARD`;
                 <Youtube size={20} className="sm:w-[24px] sm:h-[24px]" />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-[48px] h-[48px] sm:w-[56px] sm:h-[56px] bg-white/10 hover:bg-white/20 text-slate-200 hover:text-slate-100 rounded-[1rem] sm:rounded-[1.25rem] transition-all border border-transparent hover:border-slate-400/40" title="X (Twitter)">
-                <img src="/x-logo.svg" alt="X" className="w-[18px] h-[18px] sm:w-[20px] sm:h-[20px] opacity-80 hover:opacity-100 transition-opacity invert" />
+                <img src={`${import.meta.env.BASE_URL}x-logo.svg`} alt="X" className="w-[18px] h-[18px] sm:w-[20px] sm:h-[20px] opacity-80 hover:opacity-100 transition-opacity invert" />
               </a>
             </div>
 
